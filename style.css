@@ -1,17 +1,21 @@
 body {
-  font-family: sans-serif;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #111;
+  color: #eee;
 }
 
 header {
-  background-color: #5ccccc;
+  background-color: #1d1d1d;
   padding: 40px 0px 40px 25px;
 }
 
 .link-header {
-  background-color: #9FEE00;
-  padding: 5px 10px 5px 10px;
+  background-color: #00FF99;
+  color: #000;
+  padding: 5px 10px;
   font-size: 36px;
   text-decoration: none;
+  border-radius: 5px;
 }
 
 nav {
@@ -19,17 +23,18 @@ nav {
 }
 
 .link-nav {
-  color: black;
+  color: #00FF99;
   font-size: 24px;
   margin-right: 35px;
   text-decoration: none;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #00FF99;
 }
 
 h1 {
   text-align: center;
-  color: #2AB428;
+  color: #00FF99;
   font-size: 96px;
+  margin-top: 40px;
 }
 
 p {
@@ -37,41 +42,7 @@ p {
   margin-left: 60px;
 }
 
-ul {
-  font-size: 24px;
-  list-style: url("https://mars.algoritmika.org/uploads/2021/04/Arrow%201_0_1618309609.png");
-  margin-left: 60px;
-}
-
-li {
-  margin-bottom: 20px;
-}
-
-ol {
-  font-size: 24px;
-  margin-left: 60px;
-}
-
-.text-big {
-  font-size: 48px;
-  margin-left: 60px;
-}
-  
-.link-text {
-  color: blue;
-  text-decoration: none;
-  border-bottom: 2px solid blue;
-}
-
-h2 {
-  color: #006363;
-  font-size: 64px;
-}
-
-footer {
-  padding: 65px 0px 80px 80px;
-}
-
-.social {
-  margin-right: 60px;
+img {
+  display: block;
+  margin: 40px auto;
 }
